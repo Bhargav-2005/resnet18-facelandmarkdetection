@@ -1,2 +1,5 @@
 /content/drive
 streamlit_output.log
+.config/
+sample_data/
+face_landmarks.pth
