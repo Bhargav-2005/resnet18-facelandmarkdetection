@@ -118,7 +118,7 @@ if image_file is not None:
         cropped_face_np = np.array(cropped_face_pil.convert('RGB'))
 
         # Draw landmarks
-        for (x, y) in landmarks):
+        for (x, y) in landmarks:
             cv2.circle(cropped_face_np, (int(x), int(y)), 2, (0, 255, 0), -1) # Green dots
 
         st.image(cropped_face_np, caption='Detected Face with Landmarks', use_column_width=True)
