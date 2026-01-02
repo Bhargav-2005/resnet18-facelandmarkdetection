@@ -2,7 +2,9 @@ import streamlit as st
 import cv2
 import torch
 import numpy as np
-import dlib # Make sure dlib is installed
+#import dlib # Make sure dlib is installed
+import mediapipe as mp
+
 from PIL import Image
 import torchvision.transforms.functional as TF
 import torch.nn as nn
